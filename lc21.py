@@ -1,3 +1,8 @@
+from typing import Optional
+
+from lc2 import ListNode
+
+
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode()
