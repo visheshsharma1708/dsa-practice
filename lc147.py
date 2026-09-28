@@ -1,3 +1,8 @@
+from typing import Optional
+
+from lc2 import ListNode
+
+
 class Solution:
     def insertionSortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         dummy = ListNode(0)
