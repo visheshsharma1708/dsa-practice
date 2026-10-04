@@ -1,4 +1,7 @@
 class Solution:
+    class TreeNode:
+        ...
+
     def buildTree(self, inorder: list[int], postorder: list[int]) -> TreeNode | None:
         index_map = {value: i for i, value in enumerate(inorder)}
         post_idx = len(postorder) - 1
@@ -11,6 +14,9 @@ class Solution:
 
             root_val = postorder[post_idx]
             post_idx -= 1
+
+            def TreeNode(root_val):
+                ...
 
             root = TreeNode(root_val)
 
