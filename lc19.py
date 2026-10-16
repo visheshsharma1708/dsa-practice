@@ -1,4 +1,9 @@
 
+from typing import Optional
+
+from lc2 import ListNode
+
+
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummy = ListNode(0)
