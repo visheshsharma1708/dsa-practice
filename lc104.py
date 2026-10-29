@@ -1,5 +1,11 @@
 
+from typing import Optional
+
+
 class Solution:
+    class TreeNode:
+        ...
+
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         if root is None:
             return 0
