@@ -1,3 +1,6 @@
+from lc2 import ListNode
+
+
 class Solution:
     def reverseKGroup(self, head, k):
         dummy = ListNode(0)
